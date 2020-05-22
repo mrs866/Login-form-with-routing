@@ -1,0 +1,34 @@
+{
+  "employee": [
+    {
+      "name": "sravs",
+      "email": "rs@gmail.com",
+      "phonenumber": 8660720146,
+      "password": "1234",
+      "confirmPassword": "1234",
+      "id": 1
+    },
+    {
+      "name": "sra",
+      "email": "rs@gmail.com",
+      "phonenumber": "1234876543",
+      "id": 2
+    },
+    {
+      "name": "sravs",
+      "email": "sr@gmail.com",
+      "phonenumber": "0987654321",
+      "password": "Sm9000121161",
+      "confirmPassword": "Sm9000121161",
+      "id": 3
+    },
+    {
+      "name": "sras",
+      "email": "rs@gmail.com",
+      "phonenumber": "87698678578",
+      "password": "Ms123456",
+      "confirmPassword": "Ms123456",
+      "id": 4
+    }
+  ]
+}

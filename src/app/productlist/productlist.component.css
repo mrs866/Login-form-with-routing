@@ -1,0 +1,8 @@
+table {
+  background-color: darkgray;
+  text-align: center;
+  margin-left: 100px;
+}
+th,td {
+  text-align: center;
+}

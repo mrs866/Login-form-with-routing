@@ -1,0 +1,13 @@
+<table id="users" border="1px solid black">
+    <tr>
+      <th *ngFor="let col of columns">
+        {{col}}
+      </th>
+    </tr>
+    <tr *ngFor="let user of users">
+      <td *ngFor="let col of index">
+        {{user[col]}}
+      </td>
+    </tr>
+  
+  </table>

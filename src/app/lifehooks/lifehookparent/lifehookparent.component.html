@@ -1,0 +1,11 @@
+<p>lifehookparent works!</p>
+<!-- <h3>Parent Component</h3>
+<label>Parent Component</label>
+<p> Value of child component is : {{cData}}</p>
+<input type="text" #pcomponent (keyup)="0"/>
+<app-lifehookchild [parentData]="pcomponent.value" (childEvent)="textbind($event)"></app-lifehookchild> -->
+<h3>ngonChange and ngDocheck</h3>
+<label>ngonChange</label>
+<input type="text" #pcomponent (keyup)="0"/>
+<app-lifehookchild [parentData]="pcomponent.value" [arrList]="myArray"></app-lifehookchild>
+<button (click)="addValue">Add</button>
